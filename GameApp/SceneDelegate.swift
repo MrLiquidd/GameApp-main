@@ -19,9 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabbarController = TabBarRouter.build(using: navigationController)
         self.window?.rootViewController = tabbarController
         window?.makeKeyAndVisible()
-        window?.overrideUserInterfaceStyle = MTUserDefaults.shared.theme.getUserInterfaceStyle()
         window?.windowScene = windowScene
-
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
