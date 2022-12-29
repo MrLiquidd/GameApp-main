@@ -18,9 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let navigationController = UINavigationController()
         let tabbarController = TabBarRouter.build(using: navigationController)
         self.window?.rootViewController = tabbarController
+        let user = Theme(rawValue: UserDefaults.standard.integer(forKey: UserKeyValue.themeKey)) ?? .dark
+        window?.overrideUserInterfaceStyle = user.getUserInterfaceStyle()
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
     }
+
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

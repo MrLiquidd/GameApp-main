@@ -12,11 +12,6 @@
 		F313CCBA295913CB006A3CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F313CCB9295913CB006A3CB5 /* SceneDelegate.swift */; };
 		F313CCC7295913CD006A3CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F313CCC5295913CD006A3CB5 /* LaunchScreen.storyboard */; };
 		F313CD4F29591B78006A3CB5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F313CD4E29591B78006A3CB5 /* Kingfisher */; };
-		F3D53DB1295CAC5800DABF71 /* TestModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D53DAC295CAC5800DABF71 /* TestModuleBuilder.swift */; };
-		F3D53DB2295CAC5800DABF71 /* TestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D53DAD295CAC5800DABF71 /* TestPresenter.swift */; };
-		F3D53DB3295CAC5800DABF71 /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D53DAE295CAC5800DABF71 /* TestRouter.swift */; };
-		F3D53DB4295CAC5800DABF71 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D53DAF295CAC5800DABF71 /* TestViewController.swift */; };
-		F3D53DB5295CAC5800DABF71 /* TestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D53DB0295CAC5800DABF71 /* TestInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,11 +21,6 @@
 		F313CCC6295913CD006A3CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F313CCC8295913CD006A3CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resourses/Info.plist; sourceTree = "<group>"; };
 		F31C5545295B4DBD00305BF3 /* AppGamePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppGamePackage; sourceTree = "<group>"; };
-		F3D53DAC295CAC5800DABF71 /* TestModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModuleBuilder.swift; sourceTree = "<group>"; };
-		F3D53DAD295CAC5800DABF71 /* TestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPresenter.swift; sourceTree = "<group>"; };
-		F3D53DAE295CAC5800DABF71 /* TestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
-		F3D53DAF295CAC5800DABF71 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		F3D53DB0295CAC5800DABF71 /* TestInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,25 +64,12 @@
 		F313CCB6295913CB006A3CB5 /* GameApp */ = {
 			isa = PBXGroup;
 			children = (
-				F3D53DAB295CAC3B00DABF71 /* Test */,
 				F313CCB7295913CB006A3CB5 /* AppDelegate.swift */,
 				F313CCB9295913CB006A3CB5 /* SceneDelegate.swift */,
 				F313CCC5295913CD006A3CB5 /* LaunchScreen.storyboard */,
 				F313CCC8295913CD006A3CB5 /* Info.plist */,
 			);
 			path = GameApp;
-			sourceTree = "<group>";
-		};
-		F3D53DAB295CAC3B00DABF71 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				F3D53DAC295CAC5800DABF71 /* TestModuleBuilder.swift */,
-				F3D53DAD295CAC5800DABF71 /* TestPresenter.swift */,
-				F3D53DAE295CAC5800DABF71 /* TestRouter.swift */,
-				F3D53DAF295CAC5800DABF71 /* TestViewController.swift */,
-				F3D53DB0295CAC5800DABF71 /* TestInteractor.swift */,
-			);
-			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,12 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F313CCB8295913CB006A3CB5 /* AppDelegate.swift in Sources */,
-				F3D53DB3295CAC5800DABF71 /* TestRouter.swift in Sources */,
 				F313CCBA295913CB006A3CB5 /* SceneDelegate.swift in Sources */,
-				F3D53DB5295CAC5800DABF71 /* TestInteractor.swift in Sources */,
-				F3D53DB2295CAC5800DABF71 /* TestPresenter.swift in Sources */,
-				F3D53DB4295CAC5800DABF71 /* TestViewController.swift in Sources */,
-				F3D53DB1295CAC5800DABF71 /* TestModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
